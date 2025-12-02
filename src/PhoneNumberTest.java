@@ -8,7 +8,7 @@ public class PhoneNumberTest {
         };
 
         PhoneNumber phoneNumber = new PhoneNumber();
-        
+
         for (String number : phoneNumberList) {
             boolean validated = phoneNumber.validate(number);
             System.out.println("Phone number: " + number + " is valid: " + validated);
